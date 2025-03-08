@@ -25,7 +25,11 @@ const Register = () => {
         setPasswordError('');
         
         try {
+<<<<<<< HEAD
             await axios.post(`${apiBaseUrl}/register`, {
+=======
+            await axios.post('https://mern-backend-registration-1.onrender.com/register', {
+>>>>>>> 980f31717b4e0b301df77274d49e1cb76537c8bf
                 name,
                 email,
                 password,

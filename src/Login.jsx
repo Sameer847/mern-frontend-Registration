@@ -17,7 +17,11 @@ const Login = () => {
         setIsLoading(true);
         
         try {
+<<<<<<< HEAD
             const res = await axios.post(`${apiBaseUrl}/login`, {
+=======
+            const res = await axios.post('https://mern-backend-registration-1.onrender.com/login', {
+>>>>>>> 980f31717b4e0b301df77274d49e1cb76537c8bf
                 email,
                 password,
             });
